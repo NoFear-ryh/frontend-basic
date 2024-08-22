@@ -1,0 +1,17 @@
+.main{
+    margin: 0 220px;
+    height: 200px;
+    background-color: coral;
+}
+.left, .right{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+    transform: translateY(-100%);
+}

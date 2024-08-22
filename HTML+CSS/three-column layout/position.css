@@ -1,0 +1,21 @@
+.box{
+    position: relative;
+}
+.left, .right {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+}
+.left{
+    left: 0;
+}
+.right{
+    right: 0;
+}
+.main{
+    height: 200px;
+    margin: 0 220px;
+    background-color: crimson;
+}
