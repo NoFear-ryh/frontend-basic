@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="./debounce_throttle.js"></script>
+    <script>
+        const fn = () => {
+            console.log('size change');  
+        }
+        const func = throttle(fn, 1000);
+        // const func = debounce(fn, 1000);
+        window.addEventListener('resize', ()=>{
+            func();
+        })
+    </script>
+</body>
+</html>
